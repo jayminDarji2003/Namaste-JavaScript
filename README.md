@@ -1,4 +1,4 @@
-![4](https://github.com/user-attachments/assets/4a8f727d-c668-4e93-803a-df1f017cdefe)﻿# Namaste-JavaScript
+# Namaste-JavaScript
 Playlist link : https://www.youtube.com/watch?v=ZvbzSrg0afE&list=PLlasXeu85E9cQ32gLCvAvr9vNaUccPVNP&index=2
 
 Important to note that,
@@ -11,6 +11,12 @@ Video link : https://www.youtube.com/watch?v=iLWTnMzWtj4&list=PLlasXeu85E9cQ32gL
 Javascript works in two phases
 1. Memory allocation phase
 2. Code execution phase
+
+Notes : https://github.com/jayminDarji2003/Namaste-JavaScript/blob/main/Notes/lec%201.pdf
+
+
+
+
 
 
 
