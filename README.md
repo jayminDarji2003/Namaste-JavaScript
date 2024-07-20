@@ -12,6 +12,7 @@ Javascript works in two phases
 1. Memory allocation phase
 2. Code execution phase
 
-
+## 2. Hoisting in javascript
+video link : <a href="https://www.youtube.com/watch?v=Fnlnw8uY6jo&list=PLlasXeu85E9cQ32gLCvAvr9vNaUccPVNP&index=5">Link</a>
 
 
