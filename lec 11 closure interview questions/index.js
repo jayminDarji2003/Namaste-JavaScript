@@ -16,3 +16,13 @@
 
 // interview question
 // we want to print number from 1 to 5 like after 1 second print 1 , after 2 second print 2, after 3 second print 3 ...
+function x() {
+    for (let i = 1; i <= 5; i++) {
+        setTimeout(() => {
+            console.log(i);
+        }, i * 1000);
+    }
+
+    console.log("namaste javascript")
+}
+x();
