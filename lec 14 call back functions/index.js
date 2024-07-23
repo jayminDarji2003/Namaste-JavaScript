@@ -18,18 +18,13 @@ x(function y() {  // here y function called call back function.
 
 
 
-function countClick() {
+
+function countIncrement() {
     let count = 0;
-    function increase() {
-        count++;
-        console.log(`count ${count}`)
-    }
-    return increase;
+    const button = document.getElementById("clickMe");
+    button.addEventListener("click", function xyz(){
+        console.log("button clicked", ++count);
+    })
 }
 
-
-const button = document.getElementById("clickMe");
-button.addEventListener("click", () => {
-    console.log("button clicked");
-})
-countClick()();
+countIncrement();
