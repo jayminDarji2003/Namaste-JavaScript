@@ -68,7 +68,7 @@ function diameter(radius) {
     return 2 * radius;
 }
 
-// called generic function
+// called generic function - becomes higher order function
 function calculate(fnx, radius) {
     const output = [];
     for (let i = 0; i < radius.length; i++) {
@@ -81,3 +81,11 @@ console.log("------------------------ optimize code --------------------")
 console.log(calculate(area, r))
 console.log(calculate(circumference, r))
 console.log(calculate(diameter, r))
+
+// const mapResult = radiusArray.map((r) => {
+//     return area(r)
+// })
+
+//or
+const mapResult = radiusArray.map(area)  // area becomes callback function 
+console.log(mapResult);
